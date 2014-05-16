@@ -1,5 +1,5 @@
 //
-//  TVSViewController.h
+//  TVSMainViewController.h
 //  TVShows
 //
 //  Created by Varun Goyal on 5/5/14.
@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TVSViewController : UIViewController
-
+@interface TVSMainViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @end

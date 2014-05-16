@@ -7,12 +7,14 @@
 //
 
 #import "TVSAppDelegate.h"
+#import "TVSMainViewController.h"
 
 @implementation TVSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // To change the status bar text color to light color (white color)
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
 }
 							
